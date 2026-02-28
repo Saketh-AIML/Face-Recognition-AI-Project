@@ -1,0 +1,394 @@
+2025-09-06 00:14:26,626 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 00:14:26,627 INFO: [33mPress CTRL+C to quit[0m
+2025-09-06 00:14:26,630 INFO:  * Restarting with stat
+2025-09-06 00:14:27,196 WARNING:  * Debugger is active!
+2025-09-06 00:14:27,201 INFO:  * Debugger PIN: 171-412-235
+2025-09-06 00:15:04,346 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 00:15:04,346 INFO: [33mPress CTRL+C to quit[0m
+2025-09-06 00:15:04,348 INFO:  * Restarting with stat
+2025-09-06 00:15:04,924 WARNING:  * Debugger is active!
+2025-09-06 00:15:04,929 INFO:  * Debugger PIN: 171-412-235
+2025-09-06 00:17:18,876 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 00:17:18,876 INFO: [33mPress CTRL+C to quit[0m
+2025-09-06 00:17:18,878 INFO:  * Restarting with stat
+2025-09-06 00:17:19,567 WARNING:  * Debugger is active!
+2025-09-06 00:17:19,571 INFO:  * Debugger PIN: 171-412-235
+2025-09-06 00:18:52,602 INFO: 127.0.0.1 - - [06/Sep/2025 00:18:52] "GET / HTTP/1.1" 200 -
+2025-09-06 00:18:53,036 INFO: 127.0.0.1 - - [06/Sep/2025 00:18:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-06 00:19:10,785 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:10] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:19:11,049 INFO: Recognize endpoint called
+2025-09-06 00:19:11,319 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:11] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:19:12,846 INFO: Recognize endpoint called
+2025-09-06 00:19:12,882 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:12] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:19:13,959 INFO: Recognize endpoint called
+2025-09-06 00:19:13,983 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:13] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:19:26,621 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:26] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-09-06 00:19:26,937 INFO: Register endpoint called
+2025-09-06 00:19:26,956 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:26] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-09-06 00:19:30,975 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:30] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:19:31,290 INFO: Recognize endpoint called
+2025-09-06 00:19:31,316 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:31] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:19:32,888 INFO: Recognize endpoint called
+2025-09-06 00:19:32,930 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:32] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:19:34,408 INFO: Recognize endpoint called
+2025-09-06 00:19:34,442 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:34] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:19:35,616 INFO: Recognize endpoint called
+2025-09-06 00:19:35,646 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:35] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:19:57,009 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:57] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:19:57,232 INFO: 127.0.0.1 - - [06/Sep/2025 00:19:57] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:20:23,392 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:23] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:20:23,751 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:23] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:20:42,873 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:42] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:20:43,225 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:43] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:20:48,347 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:48] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:20:48,666 INFO: Recognize endpoint called
+2025-09-06 00:20:48,682 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:48] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:20:55,247 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:55] "[33mGET /api/login-logs HTTP/1.1[0m" 404 -
+2025-09-06 00:20:55,560 INFO: 127.0.0.1 - - [06/Sep/2025 00:20:55] "[33mGET /api/login-logs HTTP/1.1[0m" 404 -
+2025-09-06 00:21:17,810 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:17] "[33mGET /api/login-logs HTTP/1.1[0m" 404 -
+2025-09-06 00:21:18,169 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:18] "[33mGET /api/login-logs HTTP/1.1[0m" 404 -
+2025-09-06 00:21:50,398 INFO:  * Detected change in 'C:\\Users\\kunda\\face-recognition-app\\backend\\app.py', reloading
+2025-09-06 00:21:50,534 INFO:  * Restarting with stat
+2025-09-06 00:21:51,621 WARNING:  * Debugger is active!
+2025-09-06 00:21:51,633 INFO:  * Debugger PIN: 171-412-235
+2025-09-06 00:21:52,719 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:52] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:21:54,664 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:54] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:21:55,121 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:55] "[33mGET /api/login-logs HTTP/1.1[0m" 404 -
+2025-09-06 00:21:55,150 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:55] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:21:55,444 INFO: 127.0.0.1 - - [06/Sep/2025 00:21:55] "[33mGET /api/login-logs HTTP/1.1[0m" 404 -
+2025-09-06 00:22:10,802 INFO:  * Detected change in 'C:\\Users\\kunda\\face-recognition-app\\backend\\app.py', reloading
+2025-09-06 00:22:10,907 INFO:  * Restarting with stat
+2025-09-06 00:24:01,116 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-06 00:24:01,117 INFO: [33mPress CTRL+C to quit[0m
+2025-09-06 00:24:01,119 INFO:  * Restarting with stat
+2025-09-06 00:24:01,800 WARNING:  * Debugger is active!
+2025-09-06 00:24:01,805 INFO:  * Debugger PIN: 171-412-235
+2025-09-06 00:24:14,664 INFO: 127.0.0.1 - - [06/Sep/2025 00:24:14] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:24:14,921 INFO: Recognize endpoint called
+2025-09-06 00:24:15,017 INFO: 127.0.0.1 - - [06/Sep/2025 00:24:15] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:24:16,625 INFO: Recognize endpoint called
+2025-09-06 00:24:16,648 INFO: 127.0.0.1 - - [06/Sep/2025 00:24:16] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:24:23,519 INFO: 127.0.0.1 - - [06/Sep/2025 00:24:23] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:24:23,760 INFO: 127.0.0.1 - - [06/Sep/2025 00:24:23] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:25:14,976 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:14] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-09-06 00:25:15,301 INFO: Register endpoint called
+2025-09-06 00:25:15,313 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:15] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-09-06 00:25:19,801 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:19] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:25:20,125 INFO: Recognize endpoint called
+2025-09-06 00:25:20,156 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:20] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:25:21,702 INFO: Recognize endpoint called
+2025-09-06 00:25:21,755 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:21] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-06 00:25:25,289 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:25] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:25:25,538 INFO: Recognize endpoint called
+2025-09-06 00:25:25,558 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:25] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-06 00:25:30,902 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:30] "GET /api/login-logs HTTP/1.1" 200 -
+2025-09-06 00:25:31,240 INFO: 127.0.0.1 - - [06/Sep/2025 00:25:31] "GET /api/login-logs HTTP/1.1" 200 -
+2025-09-06 00:30:18,712 INFO: 127.0.0.1 - - [06/Sep/2025 00:30:18] "GET /api/login-logs HTTP/1.1" 200 -
+2025-09-06 00:30:18,873 INFO: 127.0.0.1 - - [06/Sep/2025 00:30:18] "GET /api/login-logs HTTP/1.1" 200 -
+2025-09-06 00:32:40,404 INFO: 127.0.0.1 - - [06/Sep/2025 00:32:40] "GET /api/logs HTTP/1.1" 200 -
+2025-09-06 00:32:40,639 INFO: 127.0.0.1 - - [06/Sep/2025 00:32:40] "GET /api/logs HTTP/1.1" 200 -
+2025-09-08 23:28:13,715 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 23:28:13,716 INFO: [33mPress CTRL+C to quit[0m
+2025-09-08 23:28:13,719 INFO:  * Restarting with stat
+2025-09-08 23:28:14,587 WARNING:  * Debugger is active!
+2025-09-08 23:28:14,597 INFO:  * Debugger PIN: 807-618-691
+2025-09-08 23:28:39,006 INFO: 127.0.0.1 - - [08/Sep/2025 23:28:39] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:28:39,246 INFO: Recognize endpoint called
+2025-09-08 23:28:39,520 INFO: 127.0.0.1 - - [08/Sep/2025 23:28:39] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:28:41,652 INFO: Recognize endpoint called
+2025-09-08 23:28:41,679 INFO: 127.0.0.1 - - [08/Sep/2025 23:28:41] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:28:58,452 INFO: 127.0.0.1 - - [08/Sep/2025 23:28:58] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-09-08 23:28:58,708 INFO: Register endpoint called
+2025-09-08 23:28:58,751 INFO: 127.0.0.1 - - [08/Sep/2025 23:28:58] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-09-08 23:29:03,083 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:03] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:29:03,430 INFO: Recognize endpoint called
+2025-09-08 23:29:03,619 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:03] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:29:05,586 INFO: Recognize endpoint called
+2025-09-08 23:29:05,824 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:05] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:29:10,141 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:10] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:29:10,374 INFO: Recognize endpoint called
+2025-09-08 23:29:10,606 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:10] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:29:52,844 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:52] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:29:53,215 INFO: Recognize endpoint called
+2025-09-08 23:29:53,346 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:53] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:29:54,896 INFO: Recognize endpoint called
+2025-09-08 23:29:55,033 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:55] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:29:58,709 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:58] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:29:58,998 INFO: Recognize endpoint called
+2025-09-08 23:29:59,389 INFO: 127.0.0.1 - - [08/Sep/2025 23:29:59] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:46:55,150 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 23:46:55,151 INFO: [33mPress CTRL+C to quit[0m
+2025-09-08 23:46:55,154 INFO:  * Restarting with stat
+2025-09-08 23:46:58,409 WARNING:  * Debugger is active!
+2025-09-08 23:46:58,416 INFO:  * Debugger PIN: 807-618-691
+2025-09-08 23:49:12,722 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:12] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-09-08 23:49:12,983 INFO: Register endpoint called
+2025-09-08 23:49:12,996 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:12] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-09-08 23:49:18,108 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:18] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:49:18,420 INFO: Recognize endpoint called
+2025-09-08 23:49:22,126 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:22] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:49:30,759 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:30] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:49:31,065 INFO: Recognize endpoint called
+2025-09-08 23:49:31,909 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:31] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:49:33,546 INFO: Recognize endpoint called
+2025-09-08 23:49:34,199 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:34] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-09-08 23:49:37,103 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:37] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:49:37,367 INFO: Recognize endpoint called
+2025-09-08 23:49:42,943 INFO: 127.0.0.1 - - [08/Sep/2025 23:49:42] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:50:00,469 INFO: 127.0.0.1 - - [08/Sep/2025 23:50:00] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:50:00,781 INFO: Recognize endpoint called
+2025-09-08 23:50:04,263 INFO: 127.0.0.1 - - [08/Sep/2025 23:50:04] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:51:28,802 INFO: 127.0.0.1 - - [08/Sep/2025 23:51:28] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:51:29,064 INFO: Recognize endpoint called
+2025-09-08 23:51:32,425 INFO: 127.0.0.1 - - [08/Sep/2025 23:51:32] "POST /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:54:05,215 INFO: 127.0.0.1 - - [08/Sep/2025 23:54:05] "GET /api/login-logs HTTP/1.1" 200 -
+2025-09-08 23:54:05,455 INFO: 127.0.0.1 - - [08/Sep/2025 23:54:05] "GET /api/login-logs HTTP/1.1" 200 -
+2025-09-08 23:55:46,812 INFO: 127.0.0.1 - - [08/Sep/2025 23:55:46] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-09-08 23:55:47,076 INFO: Recognize endpoint called
+2025-09-08 23:55:50,127 INFO: 127.0.0.1 - - [08/Sep/2025 23:55:50] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:36:03,161 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-06 11:36:03,162 INFO: [33mPress CTRL+C to quit[0m
+2025-10-06 11:36:03,164 INFO:  * Restarting with stat
+2025-10-06 11:36:05,870 WARNING:  * Debugger is active!
+2025-10-06 11:36:05,877 INFO:  * Debugger PIN: 757-598-004
+2025-10-06 11:36:17,007 INFO: 127.0.0.1 - - [06/Oct/2025 11:36:17] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:36:17,209 INFO: Recognize endpoint called
+2025-10-06 11:36:18,146 INFO: 127.0.0.1 - - [06/Oct/2025 11:36:18] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:36:19,514 INFO: Recognize endpoint called
+2025-10-06 11:36:22,489 INFO: 127.0.0.1 - - [06/Oct/2025 11:36:22] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:37:02,881 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:02] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:37:03,135 INFO: Recognize endpoint called
+2025-10-06 11:37:09,244 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:09] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:37:11,100 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:11] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:37:11,421 INFO: Recognize endpoint called
+2025-10-06 11:37:20,224 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:20] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:37:24,824 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:24] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:37:25,132 INFO: Recognize endpoint called
+2025-10-06 11:37:34,264 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:34] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:37:44,407 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:44] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:37:44,997 INFO: Recognize endpoint called
+2025-10-06 11:37:52,567 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:52] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:37:53,773 INFO: 127.0.0.1 - - [06/Oct/2025 11:37:53] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:37:54,085 INFO: Recognize endpoint called
+2025-10-06 11:38:06,316 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:06] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:38:07,902 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:07] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:38:08,208 INFO: Recognize endpoint called
+2025-10-06 11:38:14,092 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:14] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:38:16,055 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:16] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:38:16,369 INFO: Recognize endpoint called
+2025-10-06 11:38:21,842 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:21] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:38:28,723 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:28] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:38:29,032 INFO: Recognize endpoint called
+2025-10-06 11:38:38,172 INFO: 127.0.0.1 - - [06/Oct/2025 11:38:38] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 11:39:16,184 INFO: 127.0.0.1 - - [06/Oct/2025 11:39:16] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-10-06 11:39:16,508 INFO: Register endpoint called
+2025-10-06 11:39:16,525 INFO: 127.0.0.1 - - [06/Oct/2025 11:39:16] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-10-06 11:39:24,638 INFO: 127.0.0.1 - - [06/Oct/2025 11:39:24] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:39:24,957 INFO: Recognize endpoint called
+2025-10-06 11:39:41,100 INFO: 127.0.0.1 - - [06/Oct/2025 11:39:41] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:40:47,035 INFO: 127.0.0.1 - - [06/Oct/2025 11:40:47] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:40:47,295 INFO: Recognize endpoint called
+2025-10-06 11:40:54,595 INFO: 127.0.0.1 - - [06/Oct/2025 11:40:54] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:46:48,761 INFO: 127.0.0.1 - - [06/Oct/2025 11:46:48] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:46:49,008 INFO: Recognize endpoint called
+2025-10-06 11:46:51,480 INFO: 127.0.0.1 - - [06/Oct/2025 11:46:51] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:52:53,009 INFO: 127.0.0.1 - - [06/Oct/2025 11:52:53] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:52:53,269 INFO: Recognize endpoint called
+2025-10-06 11:53:00,150 INFO: 127.0.0.1 - - [06/Oct/2025 11:53:00] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 11:58:22,018 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:22] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:22,046 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:22] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:24,809 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:24] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:24,826 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:24] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:25,381 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:25] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:25,405 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:25] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:25,791 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:25] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:25,807 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:25] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:58:53,219 INFO: 127.0.0.1 - - [06/Oct/2025 11:58:53] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:38,327 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:38] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:44,648 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:44] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:44,665 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:44] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:44,880 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:44] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:44,896 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:44] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:45,512 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:45] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:45,533 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:45] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:46,164 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:46] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 11:59:46,191 INFO: 127.0.0.1 - - [06/Oct/2025 11:59:46] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:01:25,563 INFO: 127.0.0.1 - - [06/Oct/2025 12:01:25] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:01:25,570 INFO: 127.0.0.1 - - [06/Oct/2025 12:01:25] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:15,508 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:15] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:15,521 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:15] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:16,681 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:16] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:16,694 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:16] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:17,107 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:17] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:17,118 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:17] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:17,820 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:17] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:04:17,840 INFO: 127.0.0.1 - - [06/Oct/2025 12:04:17] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:07,350 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:07] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:29,973 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:29] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:30,009 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:30] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:30,750 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:30] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:30,779 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:30] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:31,093 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:31] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:31,116 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:31] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:31,279 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:31] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:31,297 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:31] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:36,646 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:36] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:05:36,679 INFO: 127.0.0.1 - - [06/Oct/2025 12:05:36] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:14,871 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:14] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:14,900 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:14] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:16,176 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:16] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:16,779 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:16] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:17,223 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:17] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:17,858 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:17] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:18,673 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:18] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:46,191 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:46] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:06:46,456 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-06 12:06:56,028 INFO: 127.0.0.1 - - [06/Oct/2025 12:06:56] "[33mGET /api/users HTTP/1.1[0m" 404 -
+2025-10-06 12:07:20,204 INFO:  * Detected change in 'C:\\Users\\kunda\\face-recognition-app\\face-recognition-app\\face-recognition-app\\backend\\app.py', reloading
+2025-10-06 12:07:20,513 INFO:  * Restarting with stat
+2025-10-06 12:07:24,420 WARNING:  * Debugger is active!
+2025-10-06 12:07:24,429 INFO:  * Debugger PIN: 757-598-004
+2025-10-06 12:07:42,049 INFO: 127.0.0.1 - - [06/Oct/2025 12:07:42] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:07:43,141 INFO: 127.0.0.1 - - [06/Oct/2025 12:07:43] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:07:53,508 INFO: 127.0.0.1 - - [06/Oct/2025 12:07:53] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:07:53,555 INFO: 127.0.0.1 - - [06/Oct/2025 12:07:53] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:08:44,769 INFO:  * Detected change in 'C:\\Users\\kunda\\face-recognition-app\\face-recognition-app\\face-recognition-app\\backend\\app.py', reloading
+2025-10-06 12:08:44,947 INFO:  * Restarting with stat
+2025-10-06 12:08:48,281 WARNING:  * Debugger is active!
+2025-10-06 12:08:48,287 INFO:  * Debugger PIN: 757-598-004
+2025-10-06 12:09:14,370 INFO: 127.0.0.1 - - [06/Oct/2025 12:09:14] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:09:17,778 INFO: 127.0.0.1 - - [06/Oct/2025 12:09:17] "[33mDELETE /api/users/1 HTTP/1.1[0m" 404 -
+2025-10-06 12:09:44,270 INFO: 127.0.0.1 - - [06/Oct/2025 12:09:44] "[33mDELETE /api/users/1 HTTP/1.1[0m" 404 -
+2025-10-06 12:10:19,687 INFO: 127.0.0.1 - - [06/Oct/2025 12:10:19] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:11:21,376 INFO: 127.0.0.1 - - [06/Oct/2025 12:11:21] "[33mDELETE /api/users/6 HTTP/1.1[0m" 404 -
+2025-10-06 12:11:38,011 INFO:  * Detected change in 'C:\\Users\\kunda\\face-recognition-app\\face-recognition-app\\face-recognition-app\\backend\\app.py', reloading
+2025-10-06 12:11:38,206 INFO:  * Restarting with stat
+2025-10-06 12:11:41,340 WARNING:  * Debugger is active!
+2025-10-06 12:11:41,346 INFO:  * Debugger PIN: 757-598-004
+2025-10-06 12:11:45,596 INFO: 127.0.0.1 - - [06/Oct/2025 12:11:45] "DELETE /api/users/6 HTTP/1.1" 200 -
+2025-10-06 12:12:20,134 INFO: 127.0.0.1 - - [06/Oct/2025 12:12:20] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:12:35,465 INFO: 127.0.0.1 - - [06/Oct/2025 12:12:35] "DELETE /api/users/1 HTTP/1.1" 200 -
+2025-10-06 12:12:54,312 INFO: 127.0.0.1 - - [06/Oct/2025 12:12:54] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:12:54,348 INFO: 127.0.0.1 - - [06/Oct/2025 12:12:54] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:12:57,082 INFO: 127.0.0.1 - - [06/Oct/2025 12:12:57] "DELETE /api/users/2 HTTP/1.1" 200 -
+2025-10-06 12:12:59,480 INFO: 127.0.0.1 - - [06/Oct/2025 12:12:59] "DELETE /api/users/3 HTTP/1.1" 200 -
+2025-10-06 12:13:01,912 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:01] "DELETE /api/users/4 HTTP/1.1" 200 -
+2025-10-06 12:13:04,986 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:04] "DELETE /api/users/5 HTTP/1.1" 200 -
+2025-10-06 12:13:06,676 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:06] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:13:38,243 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:38] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-10-06 12:13:38,503 INFO: Register endpoint called
+2025-10-06 12:13:38,521 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:38] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-10-06 12:13:42,374 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:42] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 12:13:42,683 INFO: Recognize endpoint called
+2025-10-06 12:13:43,463 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:43] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 12:13:44,634 INFO: Recognize endpoint called
+2025-10-06 12:13:45,285 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:45] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-06 12:13:46,643 INFO: Recognize endpoint called
+2025-10-06 12:13:49,237 INFO: 127.0.0.1 - - [06/Oct/2025 12:13:49] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 12:14:33,188 INFO: 127.0.0.1 - - [06/Oct/2025 12:14:33] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-10-06 12:14:33,517 INFO: Register endpoint called
+2025-10-06 12:14:33,534 INFO: 127.0.0.1 - - [06/Oct/2025 12:14:33] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-10-06 12:14:38,028 INFO: 127.0.0.1 - - [06/Oct/2025 12:14:38] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 12:14:38,347 INFO: Recognize endpoint called
+2025-10-06 12:14:41,959 INFO: 127.0.0.1 - - [06/Oct/2025 12:14:41] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 12:14:57,862 INFO: 127.0.0.1 - - [06/Oct/2025 12:14:57] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:14:57,877 INFO: 127.0.0.1 - - [06/Oct/2025 12:14:57] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:19:42,011 INFO: 127.0.0.1 - - [06/Oct/2025 12:19:42] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:19:46,399 INFO: 127.0.0.1 - - [06/Oct/2025 12:19:46] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 12:20:01,126 INFO: 127.0.0.1 - - [06/Oct/2025 12:20:01] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 14:00:52,472 INFO: 127.0.0.1 - - [06/Oct/2025 14:00:52] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 14:00:52,523 INFO: 127.0.0.1 - - [06/Oct/2025 14:00:52] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 14:46:32,460 INFO: 127.0.0.1 - - [06/Oct/2025 14:46:32] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 14:46:32,478 INFO: 127.0.0.1 - - [06/Oct/2025 14:46:32] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:08:01,973 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-06 16:08:01,973 INFO: [33mPress CTRL+C to quit[0m
+2025-10-06 16:08:01,973 INFO:  * Restarting with stat
+2025-10-06 16:08:03,365 WARNING:  * Debugger is active!
+2025-10-06 16:08:03,365 INFO:  * Debugger PIN: 918-658-052
+2025-10-06 16:11:55,275 INFO: 127.0.0.1 - - [06/Oct/2025 16:11:55] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:11:55,287 INFO: 127.0.0.1 - - [06/Oct/2025 16:11:55] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:12:14,801 INFO: 127.0.0.1 - - [06/Oct/2025 16:12:14] "DELETE /api/users/7 HTTP/1.1" 200 -
+2025-10-06 16:12:19,733 INFO: 127.0.0.1 - - [06/Oct/2025 16:12:19] "DELETE /api/users/8 HTTP/1.1" 200 -
+2025-10-06 16:13:28,657 INFO: 127.0.0.1 - - [06/Oct/2025 16:13:28] "OPTIONS /api/register HTTP/1.1" 200 -
+2025-10-06 16:13:28,909 INFO: Register endpoint called
+2025-10-06 16:13:29,175 INFO: 127.0.0.1 - - [06/Oct/2025 16:13:29] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-10-06 16:13:35,098 INFO: 127.0.0.1 - - [06/Oct/2025 16:13:35] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 16:13:35,413 INFO: Recognize endpoint called
+2025-10-06 16:13:38,146 INFO: 127.0.0.1 - - [06/Oct/2025 16:13:38] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-06 16:13:58,076 INFO: 127.0.0.1 - - [06/Oct/2025 16:13:58] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:13:58,084 INFO: 127.0.0.1 - - [06/Oct/2025 16:13:58] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:14:11,681 INFO: 127.0.0.1 - - [06/Oct/2025 16:14:11] "GET /api/login-logs HTTP/1.1" 200 -
+2025-10-06 16:14:11,994 INFO: 127.0.0.1 - - [06/Oct/2025 16:14:11] "GET /api/login-logs HTTP/1.1" 200 -
+2025-10-06 16:15:00,474 INFO: 127.0.0.1 - - [06/Oct/2025 16:15:00] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:15:00,474 INFO: 127.0.0.1 - - [06/Oct/2025 16:15:00] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:15:09,263 INFO: 127.0.0.1 - - [06/Oct/2025 16:15:09] "GET /api/users HTTP/1.1" 200 -
+2025-10-06 16:15:45,629 INFO: 127.0.0.1 - - [06/Oct/2025 16:15:45] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-06 16:15:45,893 INFO: Recognize endpoint called
+2025-10-06 16:15:47,126 INFO: 127.0.0.1 - - [06/Oct/2025 16:15:47] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-24 13:12:42,941 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-24 13:12:42,941 INFO: [33mPress CTRL+C to quit[0m
+2025-10-24 13:12:42,958 INFO:  * Restarting with stat
+2025-10-24 13:12:54,244 WARNING:  * Debugger is active!
+2025-10-24 13:12:54,338 INFO:  * Debugger PIN: 918-658-052
+2025-10-24 13:14:01,876 INFO: 127.0.0.1 - - [24/Oct/2025 13:14:01] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 13:14:01,885 INFO: 127.0.0.1 - - [24/Oct/2025 13:14:01] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 13:15:24,163 INFO: 127.0.0.1 - - [24/Oct/2025 13:15:24] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-24 13:15:24,430 INFO: Recognize endpoint called
+2025-10-24 13:15:28,671 INFO: 127.0.0.1 - - [24/Oct/2025 13:15:28] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-24 13:16:09,447 INFO: 127.0.0.1 - - [24/Oct/2025 13:16:09] "GET /api/login-logs HTTP/1.1" 200 -
+2025-10-24 13:16:09,772 INFO: 127.0.0.1 - - [24/Oct/2025 13:16:09] "GET /api/login-logs HTTP/1.1" 200 -
+2025-10-24 13:16:44,443 INFO: 127.0.0.1 - - [24/Oct/2025 13:16:44] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 13:16:44,457 INFO: 127.0.0.1 - - [24/Oct/2025 13:16:44] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 13:19:36,090 INFO: 127.0.0.1 - - [24/Oct/2025 13:19:36] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-24 13:19:36,341 INFO: Recognize endpoint called
+2025-10-24 13:19:36,588 INFO: 127.0.0.1 - - [24/Oct/2025 13:19:36] "[33mPOST /api/recognize HTTP/1.1[0m" 404 -
+2025-10-24 13:19:40,584 INFO: Recognize endpoint called
+2025-10-24 13:19:41,850 INFO: 127.0.0.1 - - [24/Oct/2025 13:19:41] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-24 13:20:08,634 INFO: 127.0.0.1 - - [24/Oct/2025 13:20:08] "GET /api/login-logs HTTP/1.1" 200 -
+2025-10-24 13:20:08,856 INFO: 127.0.0.1 - - [24/Oct/2025 13:20:08] "GET /api/login-logs HTTP/1.1" 200 -
+2025-10-24 14:07:40,440 INFO: 127.0.0.1 - - [24/Oct/2025 14:07:40] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 14:07:40,456 INFO: 127.0.0.1 - - [24/Oct/2025 14:07:40] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 14:54:24,714 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-24 14:54:24,714 INFO: [33mPress CTRL+C to quit[0m
+2025-10-24 14:54:24,714 INFO:  * Restarting with stat
+2025-10-24 14:54:27,501 WARNING:  * Debugger is active!
+2025-10-24 14:54:27,533 INFO:  * Debugger PIN: 918-658-052
+2025-10-24 15:06:54,972 INFO: 127.0.0.1 - - [24/Oct/2025 15:06:54] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:06:54,989 INFO: 127.0.0.1 - - [24/Oct/2025 15:06:54] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:05,900 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:05] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:05,907 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:05] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:20,748 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:20] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:21,517 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:21] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:40,097 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:40] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:43,856 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:43] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:07:46,140 INFO: 127.0.0.1 - - [24/Oct/2025 15:07:46] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:11:55,253 INFO: 127.0.0.1 - - [24/Oct/2025 15:11:55] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:11:55,520 INFO: Recognize endpoint called
+2025-10-24 15:11:59,010 INFO: 127.0.0.1 - - [24/Oct/2025 15:11:59] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:17:06,732 INFO: 127.0.0.1 - - [24/Oct/2025 15:17:06] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:17:06,979 INFO: Recognize endpoint called
+2025-10-24 15:17:08,244 INFO: 127.0.0.1 - - [24/Oct/2025 15:17:08] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:19:03,573 INFO: 127.0.0.1 - - [24/Oct/2025 15:19:03] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:19:03,820 INFO: Recognize endpoint called
+2025-10-24 15:19:05,018 INFO: 127.0.0.1 - - [24/Oct/2025 15:19:05] "POST /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:29:54,528 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:54] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:54,550 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:54] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:58,179 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:58] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:58,869 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:58] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:59,252 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:59] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:59,410 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:59] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:59,562 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:59] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:29:59,776 INFO: 127.0.0.1 - - [24/Oct/2025 15:29:59] "GET /api/users HTTP/1.1" 200 -
+2025-10-24 15:30:09,798 INFO: 127.0.0.1 - - [24/Oct/2025 15:30:09] "OPTIONS /api/recognize HTTP/1.1" 200 -
+2025-10-24 15:30:10,048 INFO: Recognize endpoint called
+2025-10-24 15:30:11,396 INFO: 127.0.0.1 - - [24/Oct/2025 15:30:11] "POST /api/recognize HTTP/1.1" 200 -
