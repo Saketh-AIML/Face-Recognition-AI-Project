@@ -1,0 +1,79 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  min-width: unset;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #a78bfa; /* match accent color */
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: none;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+label {
+  color: #e5e7fa;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 1.5px solid #2e335a;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #23264a;
+  color: #e5e7fa;
+  transition: border 0.2s, box-shadow 0.2s;
+  margin-bottom: 0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px #a78bfa33;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 60%; /* Make button smaller */
+  align-self: center; /* Center the button */
+  padding: 0.6rem;
+  background: linear-gradient(90deg, #7c3aed 0%, #6366f1 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem; /* Slightly smaller font */
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px rgba(31, 38, 135, 0.08);
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #6366f1 0%, #7c3aed 100%);
+  transform: translateY(-2px) scale(1.02);
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+}

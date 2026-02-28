@@ -1,0 +1,124 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(120deg, #232526 0%, #414345 100%);
+  background-image: url('D:/face-recognition-app/src/pages/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 5vh auto;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.container p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f3f3f3;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+.button {
+  padding: 0.7rem 0;
+  font-size: 1.08rem;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #36d1c4 0%, #5b86e5 100%);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 18px rgba(91, 134, 229, 0.18);
+  transition: 
+    background 0.2s,
+    color 0.2s,
+    transform 0.13s,
+    box-shadow 0.2s;
+  text-decoration: none;
+  width: 90%;
+  max-width: 320px;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0.3rem auto;
+}
+
+.button:hover, .button:focus {
+  background: linear-gradient(90deg, #5b86e5 0%, #36d1c4 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 28px rgba(91, 134, 229, 0.28);
+}
+
+.button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(91, 134, 229, 0.15);
+}
+
+/* For the purple "Capture Photo" and "Retake Photo" buttons */
+.retake-btn {
+  background: linear-gradient(90deg, #a770ef 0%, #f6d365 100%);
+  color: #222;
+  font-weight: 700;
+  margin-top: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+.retake-btn:hover, .retake-btn:focus {
+  background: linear-gradient(90deg, #f6d365 0%, #a770ef 100%);
+  color: #222;
+}
+.secondary-btn {
+  margin-left: 15px; /* Adjust this value as needed */
+  align-self: flex-start;
+}
+.input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.18);
+  color: #222;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(91, 134, 229, 0.08);
+  transition: background 0.2s;
+}
+.input:focus {
+  background: rgba(255,255,255,0.28);
+}
